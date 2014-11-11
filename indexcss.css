@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /*
@@ -16,10 +16,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/metalwall_zpsd886a858.jpg');
 }
 body {
-  color: #fff;
+  color: #000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -71,7 +71,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #000; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -84,8 +84,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #000;
+  border-bottom-color: #000;
 }
 
 @media (min-width: 768px) {
