@@ -30,6 +30,9 @@ body {
 
 .profilepic {
   height: 200px;
+  border-radius: 500px;
+  border-color: #000;
+  border-style: solid;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
