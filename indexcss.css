@@ -26,6 +26,7 @@ body {
 
 .social li {
   display: inline;
+  padding: 30px;
 }
 
 .profilepic {
