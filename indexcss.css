@@ -17,6 +17,7 @@ html,
 body {
   height: 100%;
   background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/metalwall_zpsd886a858.jpg');
+  opacity: 0.4;
 }
 body {
   color: #000;
