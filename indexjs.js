@@ -1,19 +1,19 @@
 $(document).ready(function() {
-	$('.inner cover').show();
+	$('.Home').show();
 	$('.Projects').hide();
 	$('.Contact').hide();
 	$('.homelink').click(function() {
-		$('.inner cover').show();
+		$('.Home').show();
 		$('.Projects').hide();
 		$('.Contact').hide();
 	})
 	$('.projectlink').click(function() {
-		$('.inner cover').hide();
+		$('.Home').hide();
 		$('.Projects').show();
 		$('.Contact').hide();
 	})
 	$('.contactlink').click(function() {
-		$('.inner cover').hide();
+		$('.Home').hide();
 		$('.Projects').hide();
 		$('.Contact').show();
 	})
