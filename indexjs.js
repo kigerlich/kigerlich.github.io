@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$('.Contact').hide();
 	})
 	$('.contactlink').click(function() {
-		$('.Home').toggle();
+		$('.Home').hide();
 		$('.Projects').hide();
 		$('.Contact').toggle();
 	})
