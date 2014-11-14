@@ -1,5 +1,7 @@
 $(document).ready(function() {
-	$('body').scrollspy({ target: '.nav masthead-nav' })
+	$('.inner cover').show();
+	$('.Projects').hide();
+	$('.Contact').hide();
 	$('.homelink').click(function() {
 		$('.inner cover').show();
 		$('.Projects').hide();
