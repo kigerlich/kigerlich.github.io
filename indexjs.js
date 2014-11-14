@@ -8,13 +8,13 @@ $(document).ready(function() {
 		$('.Contact').hide();
 	})
 	$('.projectlink').click(function() {
-		$('.Home').toggle();
-		$('.Projects').toggle();
+		$('.Home').hide();
+		$('.Projects').show();
 		$('.Contact').hide();
 	})
 	$('.contactlink').click(function() {
 		$('.Home').hide();
 		$('.Projects').hide();
-		$('.Contact').toggle();
+		$('.Contact').show();
 	})
 });
