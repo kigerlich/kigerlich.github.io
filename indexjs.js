@@ -1,20 +1,30 @@
 $(document).ready(function() {
-	$('.Home').show().addClass('active');
-	$('.Projects').hide().removeClass('active');
-	$('.Contact').hide().removeClass('active');
+	$('.homelink').addClass('active');
+	$('#Home').show();
+	$('#Projects').hide();
+	$('#Contact').hide();
 	$('.homelink').click(function() {
-		$('.Home').show().addClass('active');
-		$('.Projects').hide().removeClass('active');
-		$('.Contact').hide().removeClass('active');
+		$(this).addClass('active');
+		$('.projectlink').removeClass('active');
+		$('.contactlink').removeClass('active');
+		$('#Home').show();
+		$('#Projects').hide();
+		$('#Contact').hide();
 	})
 	$('.projectlink').click(function() {
-		$('.Home').hide().removeClass('active');
-		$('.Projects').show().addClass('active');
-		$('.Contact').hide().removeClass('active');
+		$(this).addClass('active');
+		$('.homelink').removeClass('active');
+		$('.contactlink').removeClass('active');
+		$('#Home').hide();
+		$('#Projects').show();
+		$('#Contact').hide();
 	})
 	$('.contactlink').click(function() {
-		$('.Home').hide().removeClass('active');
-		$('.Projects').hide().removeClass('active');
-		$('.Contact').show().addClass('active');
+		$(this).addClass('active');
+		$('.homelink').removeClass('active');
+		$('.projectlink').removeClass('active');
+		$('#Home').hide();
+		$('#Projects').hide();
+		$('#Contact').show();
 	})
 });
