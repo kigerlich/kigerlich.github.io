@@ -16,7 +16,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/2841d11b-64b6-4f2d-b5fc-733e2a4610f9_zps3f95780c.jpg');
+  background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg');
 }
 body {
   color: #000;
@@ -90,7 +90,7 @@ h1 {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #7f8c8d;
+  border-bottom-color: #000; 
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
@@ -124,7 +124,7 @@ h1 {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
+  color: #000; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
 
