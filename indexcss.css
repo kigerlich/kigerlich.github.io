@@ -16,9 +16,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg') no-repeat cover fixed;
+  
 }
 body {
   color: #000;
