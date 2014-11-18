@@ -16,14 +16,14 @@ a:hover {
 html,
 body {
   height: 100%;
-  background:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg') no-repeat cover fixed;
-  
+  background:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg') no-repeat cover;
+  position: relative;
 }
 body {
   color: #000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  position: relative;
+  position: fixed;
 }
 h1 {
   font-family: 'Rancho', cursive;
