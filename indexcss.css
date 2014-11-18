@@ -16,8 +16,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url("http://static.pexels.com/wp-content/uploads/2014/06/dawn-dusk-fog-1052.jpg") 50% 50% no-repeat fixed cover;
-  
+  background-image: url("http://static.pexels.com/wp-content/uploads/2014/06/dawn-dusk-fog-1052.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 body {
   color: #000;
