@@ -17,6 +17,7 @@ html,
 body {
   height: 100%;
   background-image:url('http://i46.photobucket.com/albums/f129/kigerlich/beachdunebackground_zps501605fd.jpg');
+  background-position: cover;
 }
 body {
   color: #000;
